@@ -11,17 +11,17 @@
        <link href="https://fonts.googleapis.com/css?family=Expletus+Sans:400,500,500i,600,700" rel="stylesheet">
         <!-- Styles -->
        <link rel="stylesheet" type="text/css" href="/css/style.css">
-
     </head>
+
     <body>
-        @yield('header')
+        <div class="site">
+            @include('elements.header')
 
-        @include('elements.navigation')
+            @include('elements.navigation'){{-- aside --}}
 
+            @yield('content'){{-- h1/main --}}
 
-        @yield('content')
-
-
-        @yield('footer')
+            @include('elements.footer')
+        </div>
     </body>
 </html>

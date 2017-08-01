@@ -4,16 +4,9 @@
 
 @section('content')
 
-<h1>foo</h1>
+<h1 class="page-title">Brian Weston and his magical test blog.</h1>
+<main id="content" class="main-content"></main>
 
-
-{{--     <div class="flex-center position-ref full-height">
-        <div class="content">
-            <div class="title m-b-md">
-                Welcome!!
-            </div>
-        </div>
-    </div> --}}
-@stop
+@endsection
 
 
